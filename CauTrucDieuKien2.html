@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cấu trúc điều kiện 2</title>
+</head>
+<body>
+    <div>
+        <h2>Bài 3: Tính diện tích hình vuông</h2>
+        <table>
+            <tr>
+                <td><labeL for="input_3">Nhập cạnh hình vuông</labeL></td>
+                <td><input type="number" id="input_3" name="input_3"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" onclick="calAreaSquare()">Kết quả</button></td>
+            </tr>
+        </table>
+        <p id="result_3">Diện tích hình vuông là:</p>
+    </div>
+
+
+    <div>
+        <h2>Bài 4: Tính diện tích hình chữ nhật</h2>
+        <table>
+            <tr>
+                <td><labeL for="input1_4">Nhập chiều dài hình chữ nhật</labeL></td>
+                <td><input type="number" id="input1_4" name="input1_4"></td>
+            </tr>
+            <tr>
+                <td><labeL for="input2_4">Nhập chiều rộng hình chữ nhật</labeL></td>
+                <td><input type="number" id="input2_4" name="input2_4"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" onclick="calAreaRec()">Kết quả</button></td>
+            </tr>
+        </table>
+        <p id="result_4">Diện tích hình chữ nhật là:</p>
+    </div>
+
+
+    <div>
+        <h2>Bài 5: Tính diện tích hình tam giác vuông</h2>
+        <table>
+            <tr>
+                <td><labeL for="input1_5">Nhập chiều dài cạnh 1</labeL></td>
+                <td><input type="number" id="input1_5" name="input1_5"></td>
+            </tr>
+            <tr>
+                <td><labeL for="input2_5">Nhập chiều dài cạnh 2</labeL></td>
+                <td><input type="number" id="input2_5" name="input2_5"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" onclick="calAreaTri()">Kết quả</button></td>
+            </tr>
+        </table>
+        <p id="result_5">Diện tích hình tam giác vuông là:</p>
+    </div>
+
+    <div>
+        <h2>Bài 6: Giải phương trình bậc nhất ax + b = 0</h2>
+        <table>
+            <tr>
+                <td><labeL for="input1_6">Nhập hệ số a</labeL></td>
+                <td><input type="number" id="input1_6" name="input1_6"></td>
+            </tr>
+            <tr>
+                <td><labeL for="input2_6">Nhập hệ số b</labeL></td>
+                <td><input type="number" id="input2_6" name="input2_6"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" onclick="solveEquation1()">Kết quả</button></td>
+            </tr>
+        </table>
+        <p id="result_6"></p>
+    </div>
+
+
+
+    <div>
+        <h2>Bài 7: Giải phương trình bậc hai ax^2 + bx + c = 0</h2>
+        <table>
+            <tr>
+                <td><labeL for="input1_7">Nhập hệ số a</labeL></td>
+                <td><input type="number" id="input1_7" name="input1_7"></td>
+            </tr>
+            <tr>
+                <td><labeL for="input2_7">Nhập hệ số b</labeL></td>
+                <td><input type="number" id="input2_7" name="input2_7"></td>
+            </tr>
+            <tr>
+                <td><labeL for="input3_7">Nhập hệ số c</labeL></td>
+                <td><input type="number" id="input3_7" name="input3_7"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" onclick="solveEquation2()">Kết quả</button></td>
+            </tr>
+        </table>
+        <p id="result_7"></p>
+    </div>
+
+
+    <div>
+        <h2>Bài 8: Kiểm tra một số nhập vào có phải là tuổi của một người không</h2>
+        <table>
+            <tr>
+                <td><labeL for="input_8">Nhập thông tin</labeL></td>
+                <td><input type="number" id="input_8" name="input_8"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" onclick="test()">Kết quả</button></td>
+            </tr>
+        </table>
+        <p id="result_8"></p>
+    </div>
+
+    <div>
+        <h2>Bài 9: Kiểm tra 3 số có phải là cạnh của tam giác không</h2>
+        <table>
+            <tr>
+                <td><labeL for="input1_9">Nhập số a</labeL></td>
+                <td><input type="number" id="input1_9" name="input1_9"></td>
+            </tr>
+            <tr>
+                <td><labeL for="input2_9">Nhập số b</labeL></td>
+                <td><input type="number" id="input2_9" name="input2_9"></td>
+            </tr>
+            <tr>
+                <td><labeL for="input3_9">Nhập số c</labeL></td>
+                <td><input type="number" id="input3_9" name="input3_9"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" onclick="isTri()">Kết quả</button></td>
+            </tr>
+        </table>
+        <p id="result_9"></p>
+    </div>
+
+    <div>
+        <h2>Bài 10: Tính giá điện</h2>
+        <table>
+            <tr>
+                <td><labeL for="input_10">Nhập lượng điện tiêu thụ (kWh)</labeL></td>
+                <td><input type="number" id="input_10" name="input_10"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" onclick="money()">Kết quả</button></td>
+            </tr>
+        </table>
+        <p id="result_10"></p>
+    </div>
+
+    <div>
+        <h2>Bài 11: Tính thuế thu nhập cá nhân</h2>
+        <table>
+            <tr>
+                <td><labeL for="input_11">Thu nhập tính thuế (đồng)</labeL></td>
+                <td><input type="number" id="input_11" name="input_11"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" onclick="individual()">Kết quả</button></td>
+            </tr>
+        </table>
+        <p id="result_11"></p>
+    </div>
+
+    <div>
+        <h2>Bài 12: Tính lãi suất ngân hàng</h2>
+        <table>
+            <tr>
+                <td><labeL for="input1_12">Nhập số vốn ban đầu</labeL></td>
+                <td><input type="number" id="input1_12" name="input1_12"></td>
+            </tr>
+            <tr>
+                <td><labeL for="input2_12">Nhập số tháng gửi</labeL></td>
+                <td><input type="number" id="input2_12" name="input2_12"></td>
+            </tr>
+            <tr>
+                <td><labeL for="input3_12">Nhập lãi suất theo tháng</labeL></td>
+                <td><input type="number" id="input3_12" name="input3_12"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" onclick="interestRate()">Kết quả</button></td>
+            </tr>
+        </table>
+        <p id="result_12"></p>
+    </div>
+</body>
+<script src="./CauTrucDieuKien2.js"></script>
+</html>
